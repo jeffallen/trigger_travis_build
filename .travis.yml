@@ -16,5 +16,6 @@ script:
 # you can also do this in other stages, such as `after_script`
 
 after_success:
+- chmod +x trigger-travis-on-myreponame
 - ./trigger-travis-on-myreponame
 

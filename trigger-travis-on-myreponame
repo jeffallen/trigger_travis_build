@@ -1,3 +1,5 @@
+#!/bin/sh
+
 TARGET_OWNER=iriberri
 TARGET_REPO=travis-experiments
 
