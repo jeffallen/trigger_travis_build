@@ -1,0 +1,20 @@
+# your custom configuration below
+
+sudo: false
+language: ruby
+dist: trusty
+
+install:
+  - echo "Hi, this is just an example"
+  - echo "Add your commands here!"
+  
+script:
+  - echo "This is just another example"
+  
+
+# trigger a build on another project if this build was successful
+# you can also do this in other stages, such as `after_script`
+
+after_success:
+- ./trigger-travis-on-myreponame
+
