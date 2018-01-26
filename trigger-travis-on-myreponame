@@ -3,7 +3,7 @@
 TARGET_OWNER=iriberri
 TARGET_REPO=travis-experiments
 
-body='{ "request": { "branch":"master", "message": "Build triggered by $TRAVIS_REPO_SLUG" }}'
+body="{ \"request\": { \"branch\":\"master\", \"message\": \"Build triggered by $TRAVIS_REPO_SLUG\" }}"
 
 # For Private Projects in travis-ci.com
 #
